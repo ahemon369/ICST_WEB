@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সকল নোটিশ</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    
+    <div class="container my-5">
+        <h1 class="text-center mb-4">সকল নোটিশ</h1>
+        <div class="flex items-center justify-between w-full p-4">
+            
+            <!-- Entries Selector -->
+            <div class="flex bg-red-400 items-center space-x-2">
+              <label for="entries" class="text-sm font-medium text-gray-700">Show</label>
+              <select
+                id="entries"
+                class="block w-16 p-1 text-sm border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              >
+                <option>10</option>
+                <option>25</option>
+                <option>50</option>
+                <option>100</option>
+              </select>
+              <span class="text-sm font-medium text-gray-700">entries</span>
+            </div>
+          
+            <!-- Search Box -->
+            <div>
+              <label for="search" class="sr-only margin-right">Search</label>
+              <input
+                type="text"
+                id="search"
+                placeholder="Search"
+                class="block w-full px-3 py-1 text-sm border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              />
+            </div>
+
+
+          </div>
+
+
+          <!--Table -->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th scope="col">ক্রমিক</th>
+                        <th scope="col">শিরোনাম</th>
+                        <th scope="col">প্রকাশের তারিখ</th>
+                        <th scope="col">ডাউনলোড</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>ডিপ্লোমা ইন টেক্সটাইল ইন্জিনিয়ারিং শিক্ষাক্র‍মের বোর্ড সমাপনী পরীক্ষা - ২০২৪ সময়সূচি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="assets/files/8007.pdf" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>ডিপ্লোমা পর্যায়ে সরকারি/বেসরকারি প্র‍তিষ্ঠানসমূহে সরাসরি ৩য় পর্বে শূন্য আসনে শিক্ষার্থী ভর্তি বিষয়ক বিজ্ঞপ্তি</td>
+                        <td>০২-১২-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>ডিপ্লোমা ইন টেক্সটাইল ইন্জিনিয়ারিং শিক্ষাক্র‍মের বোর্ড সমাপনী পরীক্ষা - ২০২৪ সময়সূচি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>ডিপ্লোমা পর্যায়ে সরকারি/বেসরকারি প্র‍তিষ্ঠানসমূহে সরাসরি ৩য় পর্বে শূন্য আসনে শিক্ষার্থী ভর্তি বিষয়ক বিজ্ঞপ্তি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>05</td>
+                        <td>ডিপ্লোমা ইন টেক্সটাইল ইন্জিনিয়ারিং শিক্ষাক্র‍মের বোর্ড সমাপনী পরীক্ষা - ২০২৪ সময়সূচি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>06</td>
+                        <td>ডিপ্লোমা পর্যায়ে সরকারি/বেসরকারি প্র‍তিষ্ঠানসমূহে সরাসরি ৩য় পর্বে শূন্য আসনে শিক্ষার্থী ভর্তি বিষয়ক বিজ্ঞপ্তি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>07</td>
+                        <td>ডিপ্লোমা ইন টেক্সটাইল ইন্জিনিয়ারিং শিক্ষাক্র‍মের বোর্ড সমাপনী পরীক্ষা - ২০২৪ সময়সূচি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>08</td>
+                        <td>ডিপ্লোমা পর্যায়ে সরকারি/বেসরকারি প্র‍তিষ্ঠানসমূহে সরাসরি ৩য় পর্বে শূন্য আসনে শিক্ষার্থী ভর্তি বিষয়ক বিজ্ঞপ্তি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>09</td>
+                        <td>ডিপ্লোমা ইন টেক্সটাইল ইন্জিনিয়ারিং শিক্ষাক্র‍মের বোর্ড সমাপনী পরীক্ষা - ২০২৪ সময়সূচি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>10</td>
+                        <td>ডিপ্লোমা পর্যায়ে সরকারি/বেসরকারি প্র‍তিষ্ঠানসমূহে সরাসরি ৩য় পর্বে শূন্য আসনে শিক্ষার্থী ভর্তি বিষয়ক বিজ্ঞপ্তি</td>
+                        <td>২৮-১১-২০২৪</td>
+                        <td class="text-center">
+                            <a href="#" class="btn btn-danger btn-sm">
+                                <i class="bi bi-file-earmark-pdf"></i> PDF
+                            </a>
+                        </td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+</html>
