@@ -1,8 +1,7 @@
 /* Responsive Menu for ministry*/
 
 .callbacks_container {
-  border-radius: 20px;
-  overflow: hidden;
+ 
   margin: 15px 0;
 }
 
@@ -46,7 +45,7 @@
   }
   .col0 a:hover {
     color: #fff !important;
-    background-color: rgb(102, 102, 102);
+    /* background-color: rgb(102, 102, 102); */
   }
 
   .meganizr > li > a:active,
@@ -186,6 +185,7 @@
   }
   .col0:hover {
     color: #fff;
+    background-color: blue !important;
   }
 
   .show-menu {
